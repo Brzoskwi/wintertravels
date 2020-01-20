@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>BIURO PODRÓŻY</title>
+        <meta charset="utf-8">
+        <link rel="icon" href="favicon.png">
+        <meta name="description" content="Witryna biura podróży z ofertą wycieczek na Grenlandię, Arktykę lub Antarktydę.">
+        <meta name="keywords" content="antarktyda, grenlandia, arktyka, biuro podróży">
+        <meta name="author" content="Gabriel Brzoskwinia">
+        <meta name="robots" content="noindex, nofollow, noydir, noodp">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="language" content="Polish">
+        <link href="css/all.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <a name="start"></a>
+        <header>
+            <div id="logo">
+
+                <figure>
+                    <img src="3.png" alt="logo" id="logoimg">
+                </figure>
+            </div>
+            <div class="topnav" id="myTopnav">
+                    <a href="kontakt.html" class="hvr-underline-from-center">KONTAKT</a>
+                    <a href="oferty.html" class="hvr-underline-from-center">OFERTY</a>
+                    <a href="promocje.html" class="hvr-underline-from-center">PROMOCJE</a>
+                    <a href="galeria.html" class="hvr-underline-from-center">GALERIA</a>
+                    <a href="index.html" class="hvr-underline-from-center active">HOME</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                      <i class="fa fa-bars"></i>
+                    </a>
+                  </div>
+                  <div class="czyscioszek"></div>
+        </header>
+        <main>
+            <div id="wrapper">
+                <div id="gallery"></div>
+            </div>
+            <div id="main">
+                <!-- <h1>Dla tych, co lubią zimę</h1>
+                <h4>Każdy miłośnik zimnych miejsc znajdzie wycieczkę dla siebie.</h4> -->
+                <div class="titlechld">
+                    DLACZEGO WINTER TRAVELS? <hr>
+                </div>
+                <div id="text">
+                    <div class="chld hvr-icon-pulse">
+                        <i class="fas fa-city hvr-icon"></i>
+                        <h3>Zakwaterowanie</h3>
+                        <hr class="kreseczki">
+                        <span class="tekst">Oferujemy najlepszy wybór najlepszych hoteli na świecie!</span>
+                    </div>
+                    <div class="chld hvr-icon-pulse">
+                        <i class="fas fa-plane hvr-icon"></i>
+                        <h3>Transport</h3>
+                        <hr class="kreseczki">
+                        <span class="tekst">
+                            Niezależnie od tego, czy chodzi o bilety lotnicze czy autobus, załatwimy to!</span>
+                    </div>
+                    <div class="chld hvr-icon-pulse">
+                        <i class="fas fa-users hvr-icon"></i>
+                        <h3>Doświadczenie</h3>
+                        <hr class="kreseczki">
+                        <span class="tekst">Doświadczenie naszych agentów jest ogromne!</span>
+                    </div>
+                    <div class="chld hvr-icon-pulse">
+                        <i class="fas fa-comment-dollar hvr-icon"></i>
+                        <h3>Szybkość i dobre ceny</h3>
+                        <hr class="kreseczki">
+                        <span class="tekst">Nasi agenci są zawsze gotowi do pracy, a nasze ceny są niskie.</span>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="oferta resp hvr-buzz-out">
+                        <figure>
+                            <img src="ZDJĘCIA/grenlandia2.jpg" alt="grenlandia">
+                            <figcaption class="podpisik">GRENLANDIA</figcaption>
+                        </figure>
+                    </div>
+                    <div class="oferta hvr-buzz-out">
+                        <figure>
+                            <img src="ZDJĘCIA/antarktyda.jpg" alt="antarktyda">
+                            <figcaption class="podpisik">ANTARKTYDA</figcaption>
+                        </figure>
+                    </div>
+                    <div class="oferta hvr-buzz-out">
+                        <figure>
+                            <img src="ZDJĘCIA/grenland.jpg" alt="grenlandia">
+                            <figcaption class="podpisik">GRENLANDIA</figcaption>
+                        </figure>
+                    </div>
+                    <div class="oferta hvr-buzz-out">
+                        <figure>
+                            <img src="ZDJĘCIA/arctic.jpg" alt="arktyka">
+                            <figcaption class="podpisik">ARKTYKA</figcaption>
+                        </figure>
+                    </div>
+                    <div class="oferta hvr-buzz-out">
+                        <figure>
+                            <img src="ZDJĘCIA/arctic3.jpg" alt="arktyka">
+                            <figcaption class="podpisik">ARKTYKA</figcaption>
+                        </figure>
+                    </div>
+                    <div class="oferta hvr-buzz-out">
+                        <figure>
+                            <img src="ZDJĘCIA/arctic2.jpg" alt="arktyka">
+                            <figcaption class="podpisik">GRENLANDIA</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <a href="#start"><i class="fas fa-angle-double-up noarrow" id="arrow"></i></a>
+        <footer>
+            <div id="copyright">Copyright 2020 &copy; Gabriel Brzoskwinia, IIIF ZSE</div>
+        </footer>
+        <script>
+        window.onscroll = function() {Arrow()};
+
+        function Arrow() {
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                document.getElementById("arrow").className = "fas fa-angle-double-up arrow";
+            } else {
+                document.getElementById("arrow").className = "fas fa-angle-double-up noarrow";
+            }
+        }
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                x.className += " responsive";
+                } else {
+                x.className = "topnav";
+            }
+        }
+        setInterval(data, 1000);
+            function data() {
+                    var now = new Date();
+                    var date = now.toLocaleDateString();
+                    var time = now.toLocaleTimeString();
+                    var holidays = new Date("June 26, 2020");
+                    var now = new Date();
+                    var left = holidays.getTime() - now.getTime();
+                    var days = Math.floor(left / (1000 * 60 * 60 * 24));
+                    document.getElementById("copyright").innerHTML = "Copyright 2020 &copy; Gabriel Brzoskwinia, IIIF ZSE " + "Data: " + date + " " + time + ", " + "do wakacji: " + days + " dni.";
+            }
+        </script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>
