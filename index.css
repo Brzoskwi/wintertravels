@@ -129,6 +129,12 @@ footer {
     color: black;
     text-shadow: 1px 1px 6px black;
 }
+.titlechld1 {
+    font-size: 1.5rem;
+    color: black;
+    text-shadow: 1px 1px 6px black;
+}
+
 hr{
     margin: 0 auto;
     width: 20%;
@@ -327,18 +333,18 @@ textarea{
     font-size: 100%;
 }
 
-#mniejsza{
+#mn{
     color: #00b9f1;
     text-shadow: 0px 0px 0px white;
     text-decoration: line-through;
-    font-size: 80%;
+    font-size: 1rem;
 }
 
-#wieksza{
+#wk{
     color: black;
     font-weight: bold;
-    font-size: 100%;
-    padding-top: 5vh;
+    font-size: 1.5rem;
+    padding-top: 0.5vh;
     text-shadow: 0px 0px 0px white;
 }
 
@@ -378,7 +384,7 @@ textarea{
 }
 
 #slider_oferty{
-    height: 60vh;
+    height: 30vh;
     width: 50%;
     margin: auto;
     margin-top: 3vh;
@@ -387,41 +393,44 @@ textarea{
 
 #ofertysl{
     width: 100%;
+    height: auto;
 }
 
 #prev{
-    margin-right: 5%;
+    margin-right: 3%;
     font-size: 200%;
     cursor: pointer;
-    margin-top: 1vh;
+    margin-bottom: 1vh;
 }
 
 #next{
-    margin-left: 5%; 
+    margin-left: 3%; 
     font-size: 200%;
     cursor: pointer;
-    margin-top: 1vh;
+    margin-bottom: 1vh;
 }
 
 #slider_miejsce{
     font-style: italic;
     font-weight: 400;
-    font-size: 200%;
+    font-size: 1.5rem;
 }
 
 #slider_mn{
     color: #00b9f1;
     text-shadow: 0px 0px 0px white;
     text-decoration: line-through;
-    font-size: 120%;
+    font-size: 1rem;
+    padding-bottom: 1vh;
 }
 
 #slider_wk{
     color: black;
     font-weight: bold;
-    font-size: 160%;
+    font-size: 1.3rem;
     padding-top: 10vh;
     text-shadow: 0px 0px 0px white;
+    padding-bottom: 1vh;
 }
 
 #ofertysl{
@@ -544,15 +553,13 @@ textarea{
     }
     
     #promka img{
-        width: 60%;
+        width: 50%;
     }
-    #mniejsza {
-        font-size: 1.2rem;
-        margin-bottom: 3vh;
+    #mn {
+        font-size: 0.7rem;
     }
-    #wieksza {
-        font-size: 1.2rem;
-        margin-bottom: 3vh;
+    #wk {
+        font-size: 1rem;
     }
     .inneprom{
         width: 48%;
@@ -593,8 +600,7 @@ textarea{
         margin-top: 5vh;
     }
     .titlechld {
-        margin-bottom: 5vh;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         color: black;
         text-shadow: 1px 1px 6px black;
     }
